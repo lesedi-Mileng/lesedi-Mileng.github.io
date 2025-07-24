@@ -1,7 +1,7 @@
 
  Hi I am Lesedi Mileng and his is my virtual CV, built using HTML and CSS and hosted via GitHub Pages.
 
-🎯 **Live Site:** [https://lesedimileng.github.io](https://lesedimileng.github.io)
+🎯 **Live Site:** [https://lesedimileng.github.io](https://lesedi-Mileng.github.io)
 
 ---
 
