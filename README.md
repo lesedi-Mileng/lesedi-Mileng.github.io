@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -115,9 +115,8 @@
           📧 <a href="mailto:leslymileng@gmail.com">leslymileng@gmail.com</a><br>
           📞 076 557 0593<br>
           📍 Potchefstroom, North West, South Africa<br>
-          🌐 <a href="https://lesedimileng.github.io" target="_blank">lesedimileng.github.io</a>
         </div>
-        <a href="Lesedi CV doc.pdf" class="btn" target="_blank">📄 Download PDF</a>
+        <a href="Lesedi CV.pdf" class="btn" target="_blank">📄 Download PDF</a>
       </div>
     </div>
 
