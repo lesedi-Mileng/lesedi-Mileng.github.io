@@ -116,7 +116,7 @@
           📞 076 557 0593<br>
           📍 Potchefstroom, North West, South Africa<br>
         </div>
-        <a href="CV doc.pdf" class="btn" target="_blank">📄 Download PDF</a>
+        
       </div>
     </div>
 
