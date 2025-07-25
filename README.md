@@ -1,4 +1,3 @@
-
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -101,6 +100,66 @@
     .section-title {
       margin-top: 0;
     }
+	
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.container {
+  animation: fadeIn 1s ease-in-out both;
+}
+
+/* Slide-up for sections */
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.section-box {
+  animation: slideUp 0.8s ease-in-out both;
+  animation-delay: 0.2s;
+}
+
+/* Profile image border pulse */
+@keyframes pulseBorder {
+  0% {
+    box-shadow: 0 0 0 0 rgba(106, 27, 154, 0.6);
+  }
+  70% {
+    box-shadow: 0 0 0 12px rgba(106, 27, 154, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(106, 27, 154, 0);
+  }
+}
+
+.header img {
+  animation: pulseBorder 2s infinite;
+}
+
+/* Hover bounce for headers */
+h1, h2 {
+  transition: transform 0.3s ease;
+}
+
+h1:hover,
+h2:hover {
+  transform: scale(1.03);
+}
+	
   </style>
 </head>
 <body>
@@ -115,8 +174,9 @@
           📧 <a href="mailto:leslymileng@gmail.com">leslymileng@gmail.com</a><br>
           📞 076 557 0593<br>
           📍 Potchefstroom, North West, South Africa<br>
+          🌐 <a href="https://lesedimileng.github.io" target="_blank">lesedimileng.github.io</a>
         </div>
-        <a href="CV doc.pdf" class="btn" target="_blank">📄 Download CV PDF</a>
+        <a href="Lesedi_Mileng_CV.pdf" class="btn" target="_blank">📄 Download PDF</a>
       </div>
     </div>
 
@@ -124,9 +184,7 @@
     <div class="section-box">
       <h2 class="section-title">Summary</h2>
       <p>
-       Driven and intellectually curious final-year BSc Information Technology student, majoring in Computer Science and Information Systems, with a solid foundation in backend development. Proficient in Java, Python, C#, and C++, with firsthand experience through academic projects that have honed both technical and teamwork skills. Enthusiastic about leveraging technology to solve real-world problems and create meaningful impact. Eager to launch a career in software development or programming, with a long-term goal of contributing to innovative, scalable solutions that drive technological progress and improve lives.
-
-
+        Final-year BSc IT student at North-West University, majoring in Computer Science and Information Systems. Strong foundation in backend development (C#, Java, Python, SQL) with real project experience and a passion for solving real-world problems through tech innovation.
       </p>
     </div>
 
@@ -141,7 +199,7 @@
     <div class="section-box">
       <h2 class="section-title">Experience</h2>
       <p><strong>JB Marks Municipal Management System</strong> – Team Project<br>
-      Built a desktop application to manage municipal operations, including clients, officers, services, and service requests. Features included request approval and assignment, service tracking, and reporting of top services rendered. Focused on maintaining entity relationships and efficient data handling.
+        Built a C# and SQL Server desktop application to manage municipal officers, clients, services, and service requests. Included approval workflow, service tracking, and reporting. Developed collaboratively using Visual Studio.
       </p>
       <p><strong>RCL Committee (High School)</strong><br>
         Served as a student representative (2021–2022), contributing to leadership initiatives and peer collaboration.</p>
@@ -163,7 +221,7 @@
     <div class="section-box">
       <h2 class="section-title">Certifications</h2>
       <ul>
-        <li><a href="https://assets.visualcv.com/assets/3739227/Microsoft AI.pdf" target="_blank">Microsoft AI Fluency Course</a></li>
+        <li><a href="https://assets.visualcv.com/assets/3739227/Microsoft_AI.pdf" target="_blank">Microsoft AI Fluency Course</a></li>
       </ul>
     </div>
 
@@ -171,8 +229,7 @@
     <div class="section-box">
       <h2 class="section-title">Achievements</h2>
       <ul>
-        <li>Ratu Lebone Men's Recidence FNAS Top Achiever – 3rd Place (2023)</li>
-        <li>NWU Faculty 3v3 Basketball - 3rd Place (2023)</li>
+        <li>FNAS Top Achiever – 3rd Place (2023)</li>
         <li>NWU Soccer Residence League Champion – 2023, 2024</li>
         <li>CAT Olympiad – Bronze (2022)</li>
         <li>District U/17 Long Jump Runner-up (2021)</li>
