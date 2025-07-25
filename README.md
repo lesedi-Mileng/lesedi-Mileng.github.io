@@ -116,7 +116,7 @@
           📞 076 557 0593<br>
           📍 Potchefstroom, North West, South Africa<br>
         </div>
-        <a href="Lesedi CV.pdf" class="btn" target="_blank">📄 Download CV PDF</a>
+        <a href="CV doc.pdf" class="btn" target="_blank">📄 Download CV PDF</a>
       </div>
     </div>
 
