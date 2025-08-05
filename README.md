@@ -113,6 +113,7 @@
         <h1>Lesedi Mileng</h1>
         <div class="contact">
           📧 <a href="mailto:leslymileng@gmail.com">leslymileng@gmail.com</a><br>
+          💻 <a href="https://github.com/lesedi-Mileng">My GitHub</a><br>
           📞 076 557 0593<br>
           📍 Potchefstroom, North West, South Africa<br>
         </div>
@@ -151,12 +152,13 @@ improve lives.
     <!-- Experience -->
     <div class="section-box">
       <h2 class="section-title">Experience</h2>
-      <p><strong>JB Marks Municipal Management System</strong> – Team Project<br>
+      <p><strong><a href="https://github.com/lesedi-Mileng/muniapp2.0">Muniapp</strong></a> – Team Project<br>
         Built a desktop application to manage municipal operations, including 
 clients, officers, services, and service requests. Features included 
 request approval and assignment, service tracking, and reporting of 
 top services rendered. Focused on maintaining entity relationships and 
 efficient data handling.
+
       </p>
       <p><strong>RCL Committee (High School)</strong><br>
         Served as a student representative (2021–2022), contributing to leadership initiatives and peer collaboration.</p>
