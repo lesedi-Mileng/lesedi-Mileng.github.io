@@ -113,7 +113,7 @@
         <h1>Lesedi Mileng</h1>
         <div class="contact">
           📧 <a href="mailto:leslymileng@gmail.com">leslymileng@gmail.com</a><br>
-          💻 <a href=https://github.com/lesedi-Mileng>My GitHub</a>
+          💻 <a href="https://github.com/lesedi-Mileng">My GitHub</a><br>
           📞 076 557 0593<br>
           📍 Potchefstroom, North West, South Africa<br>
         </div>
