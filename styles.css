@@ -6,18 +6,7 @@ body {
   transition: background 0.5s, color 0.5s;
 }
 
-.fade-in {
-  opacity: 0;
-  transform: translateY(30px);
-  animation: fadeInUp 1s forwards;
-}
 
-@keyframes fadeInUp {
-  to {
-    opacity: 1;
-    transform: none;
-  }
-}
 
 .container {
   max-width: 950px;
@@ -132,4 +121,21 @@ ul {
 
 .dark-theme .btn:hover {
   background-color: #985eff;
+}
+
+/* 🌀 Fade-in setup triggered by JS */
+.fade-in {
+  opacity: 0;
+  transform: translateY(30px);
+}
+
+.fade-in.animate {
+  animation: fadeInUp 1s forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: none;
+  }
 }
