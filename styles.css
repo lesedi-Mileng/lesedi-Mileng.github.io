@@ -218,3 +218,23 @@ ul {
   z-index: -1; /* stays behind content */
   pointer-events: none;
 }
+
+/* ===== Profile Image Animation ===== */
+.header img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #6a1b9a;
+  opacity: 0;
+  transform: scale(0.8);
+  animation: profilePop 1s ease forwards;
+  animation-delay: 0.3s; /* starts after page load */
+}
+
+@keyframes profilePop {
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
