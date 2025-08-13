@@ -9,7 +9,6 @@ const text = "Lesedi Mileng";
 let i = 0;
 const typingTarget = document.querySelector("h1");
 
-// Make sure typingTarget exists before using it
 function typeWriter() {
   if (typingTarget && i < text.length) {
     typingTarget.innerHTML += text.charAt(i);
@@ -26,6 +25,21 @@ function triggerFadeIns() {
     el.classList.add("animate");
   });
 }
+
+// 🌊 Smooth scroll for navbar links
+document.querySelectorAll(".navbar a").forEach(anchor => {
+  anchor.addEventListener("click", function (e) {
+    e.preventDefault();
+    const targetId = this.getAttribute("href");
+    const targetEl = document.querySelector(targetId);
+    if (targetEl) {
+      window.scrollTo({
+        top: targetEl.offsetTop - 60, // adjust for navbar height
+        behavior: "smooth"
+      });
+    }
+  });
+});
 
 // 🚀 Start everything on page load
 window.addEventListener("load", () => {
